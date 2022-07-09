@@ -1,0 +1,52 @@
+html, input{
+    background-color:bisque;
+    font-family: monospace;
+}
+body{
+    width: 90%;
+    max-width: 600%;
+    margin: auto;
+    padding: 2cm;
+}
+.header{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: tomato;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+Course{
+    margin:auto;
+    flex-flow: coloum wrap;
+
+}
+form{
+    margin-top: 50px;
+}
+div{
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+label,input,button{
+    font-size: 16px;
+    line-height: 2;
+}
+label{
+    flex:auto;
+}
+button{
+    width:50%;
+    margin:auto;
+}
+error-output{
+    font-size: 12px;
+    font-style:italic;
+    color:red;
+}
+.submit{
+    font-size: 12px;
+    margin: auto;
+}
